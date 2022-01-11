@@ -36,5 +36,12 @@ function checkForMatch() {
         cards[id1].removeEventListener('click', flipCard);
         cards[id2].removeEventListener('click', flipCard);
         nOfOpenedCardsArr.push(cardsChosenArr);
+    } else {
+        cards[id1].setAttribute('src', 'img/shirt_card.png');
+        cards[id2].setAttribute('src', 'img/shirt_card.png');
+        messageDiv.innerHTML = 'Карточка выбрана не верно!';
     }
+
+    cardsChosenArr =[];
+    cardsChosenArrId = [];
 }

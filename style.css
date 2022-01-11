@@ -9,3 +9,13 @@ body {
     color: #fff;
 }
 
+.cardsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+}
+
+.img {
+    margin: 10px;
+    width: 50px;
+}
